@@ -1,0 +1,32 @@
+# Ignore node_modules in the root of the project
+/node_modules
+
+# Ignore build artifacts and logs
+/build/
+/logs/
+
+# Ignore environment-specific files
+.env
+
+# Ignore dependencies and generated files in the backend folder
+/backend/node_modules/
+/backend/dist/
+
+# Ignore dependencies and generated files in the frontend folder
+/frontend/node_modules/
+/frontend/build/
+/frontend/dist/
+
+# Ignore temporary files
+*.log
+*.tmp
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore package-lock files
+package-lock.json
+yarn.lock
+
+# Ignore local configuration files
+config.local.json
